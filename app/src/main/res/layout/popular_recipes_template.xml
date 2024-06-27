@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_random"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:elevation="14dp"
+    android:layout_width="156dp"
+    android:layout_height="156dp"
+    style="@style/Widget.Material3.CardView.Filled">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/reImage"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/image_1"
+            android:layout_width="570dp"
+            android:layout_height="640dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/gradent" />
+
+
+        <TextView
+            android:id="@+id/recipe_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="110dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:text="Shahi Paneer"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/recipe_ready_time"
+            android:layout_width="match_parent"
+            android:layout_marginTop="130dp"
+            android:text="Ready in 25 min"
+            android:textColor="#9D9898"
+            android:singleLine="true"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
